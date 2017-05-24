@@ -77,3 +77,5 @@ if (!file.exists(dataDirectory)) {
 
 summary <- createSummaryDataset(dataDirectory)
 write.table(summary, "tidy.txt")
+
+# end of file
